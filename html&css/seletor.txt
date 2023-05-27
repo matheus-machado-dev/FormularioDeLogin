@@ -1,0 +1,21 @@
+O que é um seletor?
+
+O seletor representa uma estrutura. Essa estrutura é usada como uma condição para determinar quais elementos de um grupo de elementos serão formatados.
+
+Seletores encadeados e seletores agrupados são a base do CSS.
+
+Exemplo de seletor encadeado:
+    
+    div p strong a {
+        color: red;
+    }
+
+Esse seletor formata o link (a), que está dentro de um strong, que está dentro de P e que por sua vez está dentro de um DIV 
+
+
+Exemplo de seletor agrupado:
+    strong, em, span {
+        color: red;
+    }
+
+Você agrupa elementos separados por vírgula para que herdem a mesma formatação.
